@@ -1,0 +1,27 @@
+{
+  "week_13": {
+    "target_week": 13,
+    "Naive last value": 215.0,
+    "Trailing 3-week average": 201.66666666666666
+  },
+  "backtest": {
+    "n_weeks": 8,
+    "naive_mae": 11.375,
+    "avg_mae": 18.333333333333332,
+    "naive_bias": 9.375,
+    "avg_bias": 18.333333333333332,
+    "naive_wins": 8,
+    "avg_wins": 0,
+    "ties": 0
+  },
+  "baseline": "Naive last value",
+  "alert": {
+    "coverage": 0.8,
+    "half_width": 20.0,
+    "n_errors": 8,
+    "rank_used": 8,
+    "coverage_target": 0.8,
+    "guarantee_available": true,
+    "min_errors_needed": 5
+  }
+}

@@ -1,0 +1,116 @@
+test_decomposition_reconstructs_and_strength (test_advanced.TestEDA.test_decomposition_reconstructs_and_strength) ... ok
+test_pacf_matches_ar1 (test_advanced.TestEDA.test_pacf_matches_ar1) ... ok
+test_stationarity_fallback_calibration (test_advanced.TestEDA.test_stationarity_fallback_calibration) ... ok
+test_multiplicative_requires_positive (test_advanced.TestETS.test_multiplicative_requires_positive) ... ok
+test_recovers_seasonal_pattern (test_advanced.TestETS.test_recovers_seasonal_pattern) ... ok
+test_daily_weekly_quarterly_pipeline (test_advanced.TestFrequenciesAndReports.test_daily_weekly_quarterly_pipeline) ... ok
+test_harmonic_regression_handles_multiple_seasons (test_advanced.TestFrequenciesAndReports.test_harmonic_regression_handles_multiple_seasons) ... ok
+test_reports_contain_real_results (test_advanced.TestFrequenciesAndReports.test_reports_contain_real_results) ... ok
+test_growth_uses_seasonally_comparable_baseline (test_advanced.TestInsights.test_growth_uses_seasonally_comparable_baseline) ... ok
+test_insights_computed_from_data (test_advanced.TestInsights.test_insights_computed_from_data) ... ok
+test_wape_mase_r2 (test_advanced.TestMetrics.test_wape_mase_r2) ... ok
+test_arima_family (test_advanced.TestModels.test_arima_family) ... skipped 'statsmodels not installed'
+test_availability_reports_missing_packages (test_advanced.TestModels.test_availability_reports_missing_packages) ... ok
+test_every_available_model_runs_and_is_sane (test_advanced.TestModels.test_every_available_model_runs_and_is_sane) ... ok
+test_failing_model_does_not_break_evaluation (test_advanced.TestModels.test_failing_model_does_not_break_evaluation) ... ok
+test_negative_targets_not_clipped (test_advanced.TestModels.test_negative_targets_not_clipped) ... ok
+test_no_negative_forecasts_for_nonnegative_target (test_advanced.TestModels.test_no_negative_forecasts_for_nonnegative_target) ... ok
+test_seasonal_models_beat_naive_on_seasonal_data (test_advanced.TestModels.test_seasonal_models_beat_naive_on_seasonal_data) ... ok
+test_column_guessing (test_advanced.TestPreprocessing.test_column_guessing) ... ok
+test_date_format_detection_and_ambiguity (test_advanced.TestPreprocessing.test_date_format_detection_and_ambiguity) ... ok
+test_differencing_and_irregularity (test_advanced.TestPreprocessing.test_differencing_and_irregularity) ... ok
+test_original_never_modified (test_advanced.TestPreprocessing.test_original_never_modified) ... ok
+test_outlier_detection_precision (test_advanced.TestPreprocessing.test_outlier_detection_precision) ... ok
+test_outlier_detection_with_gaps (test_advanced.TestPreprocessing.test_outlier_detection_with_gaps) ... ok
+test_quality_report (test_advanced.TestPreprocessing.test_quality_report) ... ok
+test_length_classes_and_exclusions (test_advanced.TestSelector.test_length_classes_and_exclusions) ... ok
+test_app_starts_and_navigates (test_advanced.TestStreamlitApp.test_app_starts_and_navigates) ... skipped 'streamlit not installed'
+test_all_cv_modes_run (test_advanced.TestValidation.test_all_cv_modes_run) ... ok
+test_extra_outputs (test_advanced.TestValidation.test_extra_outputs) ... ok
+test_flagged_outliers_excluded_from_scoring_only_when_treated (test_advanced.TestValidation.test_flagged_outliers_excluded_from_scoring_only_when_treated) ... ok
+test_holdout_never_influences_selection (test_advanced.TestValidation.test_holdout_never_influences_selection)
+Corrupt the hold-out wildly: CV scores and the selected model must be identical (no leakage). ... ok
+test_selection_is_by_cv_not_holdout_or_training (test_advanced.TestValidation.test_selection_is_by_cv_not_holdout_or_training) ... ok
+test_walk_forward_and_rolling_folds (test_advanced.TestValidation.test_walk_forward_and_rolling_folds) ... ok
+test_future_change_does_not_alter_past_features (test_core.TestFeatures.test_future_change_does_not_alter_past_features) ... ok
+test_no_leakage_in_features (test_core.TestFeatures.test_no_leakage_in_features) ... ok
+test_row_features_shape (test_core.TestFeatures.test_row_features_shape) ... ok
+test_mape_zero_safe (test_core.TestMetrics.test_mape_zero_safe) ... ok
+test_nan_ignored (test_core.TestMetrics.test_nan_ignored) ... ok
+test_smape_bounds (test_core.TestMetrics.test_smape_bounds) ... ok
+test_values (test_core.TestMetrics.test_values) ... ok
+test_baselines_exact (test_core.TestModelsAndPipeline.test_baselines_exact) ... ok
+test_evaluation_structure_and_chronology (test_core.TestModelsAndPipeline.test_evaluation_structure_and_chronology) ... ok
+test_failed_model_reported_not_hidden (test_core.TestModelsAndPipeline.test_failed_model_reported_not_hidden) ... ok
+test_future_forecast_dates (test_core.TestModelsAndPipeline.test_future_forecast_dates) ... ok
+test_interval_ordering (test_core.TestModelsAndPipeline.test_interval_ordering) ... ok
+test_missing_dataset_with_treatment (test_core.TestModelsAndPipeline.test_missing_dataset_with_treatment) ... ok
+test_missing_without_treatment_fails_clearly (test_core.TestModelsAndPipeline.test_missing_without_treatment_fails_clearly) ... ok
+test_ml_follows_upward_trend (test_core.TestModelsAndPipeline.test_ml_follows_upward_trend) ... ok
+test_nan_training_rejected (test_core.TestModelsAndPipeline.test_nan_training_rejected) ... ok
+test_sample_dataset (test_core.TestModelsAndPipeline.test_sample_dataset) ... ok
+test_seasonal_naive_beats_naive_on_seasonal (test_core.TestModelsAndPipeline.test_seasonal_naive_beats_naive_on_seasonal) ... ok
+test_all_text_target_error (test_core.TestPreprocessing.test_all_text_target_error) ... ok
+test_clean_valid (test_core.TestPreprocessing.test_clean_valid) ... ok
+test_duplicates_warned_and_aggregated (test_core.TestPreprocessing.test_duplicates_warned_and_aggregated) ... ok
+test_frequency_detection (test_core.TestPreprocessing.test_frequency_detection) ... ok
+test_insufficient_blocked (test_core.TestPreprocessing.test_insufficient_blocked) ... ok
+test_interpolation_only_short_gaps (test_core.TestPreprocessing.test_interpolation_only_short_gaps) ... ok
+test_invalid_dates_and_types (test_core.TestPreprocessing.test_invalid_dates_and_types) ... ok
+test_missing_periods_stay_nan_and_raw_preserved (test_core.TestPreprocessing.test_missing_periods_stay_nan_and_raw_preserved) ... ok
+test_outlier_detection_and_treatment (test_core.TestPreprocessing.test_outlier_detection_and_treatment) ... ok
+test_prep_uses_only_given_window (test_core.TestPreprocessing.test_prep_uses_only_given_window) ... ok
+test_seasonal_fill (test_core.TestPreprocessing.test_seasonal_fill) ... ok
+test_chronological (test_core.TestSplits.test_chronological) ... ok
+test_folds_expanding_and_order (test_core.TestSplits.test_folds_expanding_and_order) ... ok
+test_folds_rolling_window_fixed (test_core.TestSplits.test_folds_rolling_window_fixed) ... ok
+test_leakage_detected (test_core.TestSplits.test_leakage_detected) ... ok
+test_all_statsmodels (test_core.TestStatsmodels.test_all_statsmodels) ... skipped 'statsmodels not installed'
+test_eda (test_core.TestStatsmodels.test_eda) ... skipped 'statsmodels not installed'
+test_backtest_rejects_too_few_observations (test_q3.TestQ3.test_backtest_rejects_too_few_observations) ... ok
+test_demand_alert (test_q3.TestQ3.test_demand_alert) ... ok
+test_demand_alert_rejects_invalid_coverage (test_q3.TestQ3.test_demand_alert_rejects_invalid_coverage) ... ok
+test_duplicate_and_missing_week_detection (test_q3.TestQ3.test_duplicate_and_missing_week_detection) ... ok
+test_empty_dates (test_q3.TestQ3.test_empty_dates) ... ok
+test_expanding_window_backtest_mae (test_q3.TestQ3.test_expanding_window_backtest_mae) ... ok
+test_forecast_rejects_negative_or_nonfinite_values (test_q3.TestQ3.test_forecast_rejects_negative_or_nonfinite_values) ... ok
+test_invalid_and_blank_date_count (test_q3.TestQ3.test_invalid_and_blank_date_count) ... ok
+test_same_week_different_days_is_duplicate_week (test_q3.TestQ3.test_same_week_different_days_is_duplicate_week) ... ok
+test_week_13_forecasts (test_q3.TestQ3.test_week_13_forecasts) ... ok
+test_90_has_no_guarantee_with_8_errors (test_q3_core.TestAlert.test_90_has_no_guarantee_with_8_errors) ... ok
+test_band_80 (test_q3_core.TestAlert.test_band_80) ... ok
+test_boundary_not_alert (test_q3_core.TestAlert.test_boundary_not_alert) ... ok
+test_direction (test_q3_core.TestAlert.test_direction) ... ok
+test_invalid_inputs (test_q3_core.TestAlert.test_invalid_inputs) ... ok
+test_lower_bound_clipped_at_zero (test_q3_core.TestAlert.test_lower_bound_clipped_at_zero) ... ok
+test_constant_series_zero_error (test_q3_core.TestBacktest.test_constant_series_zero_error) ... ok
+test_hand_computed_first_row (test_q3_core.TestBacktest.test_hand_computed_first_row) ... ok
+test_leaky_neighbour_demo_is_unrealistically_good (test_q3_core.TestBacktest.test_leaky_neighbour_demo_is_unrealistically_good) ... ok
+test_mae (test_q3_core.TestBacktest.test_mae) ... ok
+test_minimum_series_gives_one_row (test_q3_core.TestBacktest.test_minimum_series_gives_one_row) ... ok
+test_no_leakage_future_values_do_not_change_past_forecasts (test_q3_core.TestBacktest.test_no_leakage_future_values_do_not_change_past_forecasts)
+Changing week 12 must not change any forecast for weeks 5-11. ... ok
+test_shuffling_changes_result (test_q3_core.TestBacktest.test_shuffling_changes_result)
+Order matters: a shuffled series gives different (and here worse) naive MAE. ... ok
+test_tie_goes_to_naive (test_q3_core.TestBacktest.test_tie_goes_to_naive) ... ok
+test_too_short_or_bad_start (test_q3_core.TestBacktest.test_too_short_or_bad_start) ... ok
+test_weeks_and_window_growth (test_q3_core.TestBacktest.test_weeks_and_window_growth) ... ok
+test_bad_freq (test_q3_core.TestDates.test_bad_freq) ... ok
+test_clean_series (test_q3_core.TestDates.test_clean_series) ... ok
+test_empty_and_all_invalid (test_q3_core.TestDates.test_empty_and_all_invalid) ... ok
+test_invalid_blank_and_unsorted (test_q3_core.TestDates.test_invalid_blank_and_unsorted) ... ok
+test_legacy_wrapper (test_q3_core.TestDates.test_legacy_wrapper) ... ok
+test_missing_and_duplicate (test_q3_core.TestDates.test_missing_and_duplicate) ... ok
+test_monday_convention (test_q3_core.TestDates.test_monday_convention) ... ok
+test_no_timestamps_is_labelled_assumption (test_q3_core.TestDates.test_no_timestamps_is_labelled_assumption) ... ok
+test_same_week_different_days (test_q3_core.TestDates.test_same_week_different_days) ... ok
+test_bad_values (test_q3_core.TestForecasts.test_bad_values) ... ok
+test_minimum_length (test_q3_core.TestForecasts.test_minimum_length) ... ok
+test_week13 (test_q3_core.TestForecasts.test_week13) ... ok
+test_memo_follows_data_not_a_fixed_answer (test_q3_core.TestMemo.test_memo_follows_data_not_a_fixed_answer) ... ok
+test_memo_numbers_come_from_computation (test_q3_core.TestMemo.test_memo_numbers_come_from_computation) ... ok
+
+----------------------------------------------------------------------
+Ran 108 tests in 6.622s
+
+OK (skipped=4)

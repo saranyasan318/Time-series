@@ -1,0 +1,6 @@
+No-timestamp mode: No timestamps: gaps/duplicates cannot be observed. Consecutive weekly spacing is an ASSUMPTION, so zero issues here is by construction, not evidence.
+
+Fault-injected demo input: ['2024-01-07', '2024-01-14', '2024-01-14', '2024-01-28', '2024-02-06', 'not-a-date']
+  invalid=1  exact_duplicates=['2024-01-14']
+  missing_weeks(week ending)=['2024-01-21', '2024-02-04']
+  same_week_duplicates=[]  off_cadence_weekday=1
